@@ -24,6 +24,7 @@ NOGAME=false
 LOGIN=false
 EDITING=""
 WSCONN=nil
+HEALTHYGAME=true
 
 math.randomseed(os.time()*626)
 love.keyboard.setKeyRepeat(true)
