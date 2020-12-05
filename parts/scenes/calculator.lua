@@ -77,6 +77,11 @@ function scene.keyDown(k)
 			S.pass,MARKING=true
 			LOG.print("\68\69\86\58\87\97\116\101\114\109\97\114\107\32\82\101\109\111\118\101\100","message")
 			SFX.play("clear")
+		elseif v==405e8+9919e4+2346 then --"infplay" in decimal
+		    S.pass=true
+		    HEALTHYGAME=false
+		    LOG.print("\68\69\86\58\68\105\115\97\98\108\101\32\72\101\97\108\116\104\121\103\97\109\101","message")
+		    SFX.play("spin_1")
 		elseif v==72943816 then
 			S.pass=true
 			for name,M in next,MODES do
