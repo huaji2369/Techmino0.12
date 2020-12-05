@@ -311,7 +311,8 @@ function legalGameTime()
 	if
 		(SETTING.lang==1 or SETTING.lang==2 or SETTING.lang==7)and
 		RANKS.sprint_10<4 and
-		(not RANKS.sprint_40 or RANKS.sprint_40<3)
+		(not RANKS.sprint_40 or RANKS.sprint_40<3) and
+		HEALTHYGAME==true
 	then
 		if STAT.todayTime<14400 then
 			return true
